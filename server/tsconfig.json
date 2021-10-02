@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig",
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "inlineSourceMap": true,
+    "outDir": "./build/",
+    "lib": [
+      "esnext"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

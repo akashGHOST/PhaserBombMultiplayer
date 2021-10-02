@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "strictPropertyInitialization": false,
+    "lib": [
+      "esnext"
+    ],
+    "typeRoots": [
+      "./commons/*.ts"
+    ]
+  }
+}
